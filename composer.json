@@ -1,0 +1,25 @@
+{
+    "name": "vaalyn/menu-builder-service",
+    "description": "A menu builder service for the Slim Framework 3",
+	"keywords": ["menu", "builder", "service", "navigation", "slim"],
+	"homepage": "https://github.com/Vaalyn/session-service",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Vaalyn",
+            "email": "vaalyndev@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.2.0",
+		"vaalyn/authentication-service": "dev-master",
+		"vaalyn/authorization-service": "dev-master",
+		"vaalyn/session-service": "dev-master"
+	},
+	"autoload": {
+        "psr-4": {
+			"Vaalyn\\MenuBuilderService\\": "src"
+        }
+    }
+}
