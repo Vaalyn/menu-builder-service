@@ -2,7 +2,7 @@
     "name": "vaalyn/menu-builder-service",
     "description": "A menu builder service for the Slim Framework 3",
 	"keywords": ["menu", "builder", "service", "navigation", "slim"],
-	"homepage": "https://github.com/Vaalyn/session-service",
+	"homepage": "https://github.com/Vaalyn/menu-builder-service",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
